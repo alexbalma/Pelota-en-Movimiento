@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // La configuración de Firebase de tu aplicación werb.
+      //agregar aquí
+
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBhibCKXoWdViTIktrVS5kMgYAqqIynke8",
+  authDomain: "pelota-en-movimiento-72eaa.firebaseapp.com",
+  databaseURL: "https://pelota-en-movimiento-72eaa-default-rtdb.firebaseio.com",
+  projectId: "pelota-en-movimiento-72eaa",
+  storageBucket: "pelota-en-movimiento-72eaa.appspot.com",
+  messagingSenderId: "955585816078",
+  appId: "1:955585816078:web:27b6741191c8dd84c73e5f",
+  measurementId: "G-1LX7WJLEN5"
+};
+
+      // Inicia Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  </body>
+</html>
